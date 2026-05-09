@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show:*)",
+      "Bash(python -c \"from scrapling.fetchers import PlayWrightFetcher; print\\('ok'\\)\")",
+      "Bash(python -c \"import scrapling; print\\(dir\\(scrapling\\)\\)\")",
+      "Bash(python -c \"from scrapling import fetchers; print\\(dir\\(fetchers\\)\\)\")",
+      "Bash(python -c \"from scrapling import StealthyFetcher, DynamicFetcher; help\\(DynamicFetcher.__init__\\)\")",
+      "Bash(python:*)",
+      "Bash(tasklist)",
+      "Bash(taskkill:*)"
+    ]
+  }
+}
